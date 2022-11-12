@@ -21,6 +21,8 @@ FLUTTER_PLUGIN_EXPORT GType webview_cef_plugin_get_type();
 FLUTTER_PLUGIN_EXPORT void webview_cef_plugin_register_with_registrar(
     FlPluginRegistrar* registrar);
 
+FLUTTER_PLUGIN_EXPORT void init();
+
 G_END_DECLS
 
 #endif  // FLUTTER_PLUGIN_WEBVIEW_CEF_PLUGIN_H_
